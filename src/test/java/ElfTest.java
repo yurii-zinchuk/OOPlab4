@@ -15,7 +15,8 @@ public class ElfTest {
     }
 
     @Test
-    public void testToString(){ assertEquals("Elf{hp=10, power=10}", character.toString());
+    public void testToString(){
+        assertEquals("Elf{hp=10, power=10}", character.toString());
     }
 
     @Test
